@@ -1,0 +1,267 @@
+{
+  "nav": {
+    "services": "Services",
+    "gapp": "GAPP Program",
+    "whyUs": "Why Us",
+    "howItWorks": "How It Works",
+    "contact": "Contact Us",
+    "callUs": "Call Us",
+    "seHablaEspanol": "Se habla Espa\u00f1ol"
+  },
+  "hero": {
+    "headline": "Compassionate Care. Professional Support. Peace of Mind.",
+    "subheadline": "Trusted in-home care services for children and adults who need skilled medical care, personal support, or everyday assistance. Our team provides dependable, high-quality care that allows individuals to remain safe and comfortable at home.",
+    "cta": "Request a Consultation",
+    "ctaCall": "Call Us: 470-884-3905",
+    "tagline": "Personalized care. Skilled professionals. Support families can rely on."
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "Comprehensive in-home care tailored to meet the unique needs of every client \u2014 from children to adults.",
+    "skilledNursing": {
+      "title": "Skilled Nursing Care",
+      "subtitle": "Child & Adult Services",
+      "description": "Our licensed nurses provide advanced medical care for clients with complex health needs in the comfort of their home.",
+      "items": [
+        "Management of feeding tubes",
+        "Ventilator care",
+        "Tracheostomy care",
+        "Monitoring and management of complex medical equipment",
+        "Ongoing support for medically fragile individuals"
+      ]
+    },
+    "privateDuty": {
+      "title": "Private Duty Nursing",
+      "description": "Private duty nursing provides dedicated one-on-one skilled nursing care for individuals who require extended medical support at home.",
+      "items": [
+        "Continuous skilled nursing care",
+        "Long-term support for complex medical conditions",
+        "Monitoring and clinical oversight in a home environment",
+        "Care tailored to medically fragile individuals"
+      ]
+    },
+    "personalCare": {
+      "title": "Personal Care Assistance",
+      "description": "Our caregivers provide support with daily personal care needs, helping clients maintain independence and dignity.",
+      "items": [
+        "Bathing",
+        "Grooming",
+        "Feeding",
+        "Mobility and transfers",
+        "Daily hygiene routines"
+      ],
+      "note": "Each care plan is tailored to meet the individual needs of every client."
+    },
+    "lifestyleSupport": {
+      "title": "Lifestyle Support & Companion Care",
+      "description": "Our lifestyle support services provide non-medical assistance that helps clients maintain an active, comfortable lifestyle at home.",
+      "items": [
+        "Meal preparation and nutrition support",
+        "Transportation to appointments and social outings",
+        "Safety supervision and support during emergencies",
+        "Assistance with daily routines",
+        "Medication reminders",
+        "Light housekeeping"
+      ]
+    }
+  },
+  "gapp": {
+    "sectionTitle": "Georgia Pediatric Program (GAPP)",
+    "sectionSubtitle": "Trusted Pediatric Home Care Through Georgia\u2019s Medicaid-Funded Initiative",
+    "whatIsGapp": "The Georgia Pediatric Program (GAPP) is a Medicaid-funded initiative that provides skilled nursing and personal care services to medically fragile children under age 21. These services are delivered in the comfort and safety of the child\u2019s home at no cost to families. Medicaid-eligible families may apply, with approval determined by the child\u2019s specific medical needs.",
+    "highlights": {
+      "noCost": {
+        "title": "No Cost to Families",
+        "description": "Services are 100% covered by Georgia Medicaid, ensuring zero out-of-pocket expenses for qualifying families."
+      },
+      "licensedNurses": {
+        "title": "Licensed Nurses",
+        "description": "Board-certified RNs and LPNs with pediatric specializations and ongoing clinical training."
+      },
+      "personalizedPlans": {
+        "title": "Personalized Plans",
+        "description": "Custom care plans developed in collaboration with your family and your child\u2019s medical team."
+      },
+      "noWaitlist": {
+        "title": "No Waitlist",
+        "description": "Your child will be eligible for services immediately upon GAPP approval."
+      }
+    },
+    "servicesTitle": "GAPP Services",
+    "serviceCategories": {
+      "dailyCare": {
+        "title": "Daily Care & Mobility",
+        "items": [
+          "Personal Hygiene: Comprehensive assistance with bathing, dressing, and hygiene",
+          "Mobility Support: Expert wheelchair assistance and routine turning or repositioning to ensure comfort",
+          "Home Comfort: Regular changing of bed linens and support with activities of daily living (ADLs)"
+        ]
+      },
+      "clinicalSupport": {
+        "title": "Clinical & Medical Support",
+        "items": [
+          "Medication Management: Precise administration of prescribed medications",
+          "Enteral Nutrition: Gastrostomy tube (G-tube) feeding, cleaning, and site maintenance",
+          "Vitals & Monitoring: Continuous observation and tracking of vital signs to monitor health status"
+        ]
+      },
+      "respiratoryCare": {
+        "title": "Advanced Respiratory Care",
+        "items": [
+          "Tracheostomy Management: Professional trach care, cleaning, and suctioning",
+          "Respiratory Therapy: Administration of breathing treatments and manual bagging via trach or mouth"
+        ]
+      },
+      "careCoordination": {
+        "title": "Care Coordination",
+        "items": [
+          "Clinical Communication: Detailed gathering of treatment plan data and immediate reporting of health changes to doctors or nurses"
+        ]
+      }
+    },
+    "gettingStartedTitle": "Getting Started",
+    "gettingStartedSubtitle": "Follow these four steps to begin receiving specialized care for your child.",
+    "steps": {
+      "step1": {
+        "title": "Initial Consultation",
+        "description": "Contact our intake team to discuss your child\u2019s specific medical needs and daily routine."
+      },
+      "step2": {
+        "title": "Eligibility Review",
+        "description": "We will help you verify Georgia Medicaid or TEFRA eligibility to ensure your services are covered."
+      },
+      "step3": {
+        "title": "In-Home Assessment",
+        "description": "A Registered Nurse (RN) will visit your home to conduct a clinical evaluation and determine the required level of care."
+      },
+      "step4": {
+        "title": "Caregiver Matching",
+        "description": "Once approved, we coordinate your customized treatment plan and match your family with a qualified nurse or aide."
+      }
+    },
+    "timelineNote": "Please note that the intake and evaluation process typically takes up to 30 days to complete."
+  },
+  "whyUs": {
+    "sectionTitle": "Why Families Trust Us",
+    "sectionSubtitle": "Choosing care for a loved one is an important decision. At Prestige 24 Home Care, we combine clinical expertise with genuine compassion to ensure every client receives attentive, reliable support.",
+    "reasons": {
+      "personalized": {
+        "title": "Personalized Attention",
+        "description": "Tailored to each client\u2019s medical and personal needs."
+      },
+      "caregivers": {
+        "title": "Carefully Selected Caregivers",
+        "description": "With the training and experience families can trust."
+      },
+      "consistency": {
+        "title": "Consistency & Reliability",
+        "description": "So clients feel secure and supported."
+      },
+      "communication": {
+        "title": "Transparent Communication",
+        "description": "With families and healthcare providers."
+      },
+      "paperwork": {
+        "title": "Paperwork Assistance",
+        "description": "Navigating medical paperwork and care coordination."
+      }
+    },
+    "closing": "From the first consultation through daily care, we provide concierge-level service designed to make life easier, safer, and more comfortable at home."
+  },
+  "testimonials": {
+    "sectionTitle": "What Families Are Saying",
+    "sectionSubtitle": "Hear from families who trust Prestige 24 Home Care with their loved ones.",
+    "reviews": [
+      {
+        "name": "Maria L.",
+        "role": "Parent",
+        "text": "Prestige 24 has been a blessing for our family. The nurses are professional, compassionate, and truly care about my child\u2019s well-being. I finally have peace of mind knowing my child is in good hands.",
+        "rating": 5
+      },
+      {
+        "name": "James T.",
+        "role": "Family Member",
+        "text": "The level of care my mother receives is exceptional. The caregivers are dependable, kind, and always go above and beyond. We couldn\u2019t ask for a better home care team.",
+        "rating": 5
+      },
+      {
+        "name": "Sandra W.",
+        "role": "Parent",
+        "text": "From the very first consultation, Prestige 24 made us feel heard and supported. The GAPP program enrollment was seamless, and our daughter now receives the specialized nursing care she needs at home.",
+        "rating": 5
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "Getting started with Prestige 24 Home Care is simple. We guide you through every step.",
+    "steps": [
+      {
+        "title": "Contact Us",
+        "description": "Reach out by phone or through our contact form to tell us about your care needs."
+      },
+      {
+        "title": "Free Consultation",
+        "description": "Schedule a consultation with one of our dedicated specialists to explore how we can provide the best care for you or your loved one."
+      },
+      {
+        "title": "Personalized Care Plan",
+        "description": "We develop a customized care plan based on the client\u2019s medical needs, daily routine, and family preferences."
+      },
+      {
+        "title": "Care Begins",
+        "description": "Your matched caregiver begins providing professional, compassionate care in the comfort of your home."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Request a Consultation",
+    "sectionSubtitle": "Fill out the form below and a member of our intake team will contact you within 24 hours.",
+    "fields": {
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "patientAge": "Patient Age",
+      "relationship": "Relationship to Patient",
+      "serviceNeeded": "Service Needed",
+      "insurance": "Insurance / Medicaid Status",
+      "contactMethod": "Preferred Contact Method",
+      "message": "Message (Optional)"
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "phone": "(XXX) XXX-XXXX",
+      "email": "your@email.com",
+      "patientAge": "Enter patient age",
+      "message": "Tell us about your care needs, questions, or any additional information..."
+    },
+    "options": {
+      "relationship": ["Self", "Parent / Guardian", "Spouse", "Child", "Other"],
+      "service": ["Pediatric Care (GAPP)", "Adult Home Care", "Companion / Lifestyle Support", "Not Sure"],
+      "insurance": ["Georgia Medicaid", "TEFRA", "Private Insurance", "Uninsured", "Not Sure"],
+      "contactMethod": ["Phone", "Email", "Either"]
+    },
+    "consent": "I consent to Prestige 24 Home Care contacting me regarding care services. I understand that my information will be kept confidential in accordance with HIPAA regulations.",
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "success": "Thank you! Your request has been submitted. A member of our team will contact you within 24 hours.",
+    "error": "Something went wrong. Please try again or call us directly at 470-884-3905.",
+    "directContact": "Prefer to speak with someone directly?",
+    "callNow": "Call 470-884-3905",
+    "emailUs": "Email admin@p24homecare.com",
+    "selectPlaceholder": "Select..."
+  },
+  "footer": {
+    "tagline": "Care That Feels Like Family.",
+    "description": "At Prestige 24 Home Care, we treat every home with the same respect and care we would give our own family.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "joinTeam": "Join Our Team",
+    "joinTeamText": "Interested in joining our team of dedicated caregivers?",
+    "joinTeamCta": "Email careers@p24homecare.com",
+    "privacyPolicy": "Privacy Policy",
+    "hipaaNotice": "HIPAA Notice",
+    "copyright": "\u00a9 2024 Prestige 24 Home Care. All rights reserved.",
+    "seHablaEspanol": "Se habla Espa\u00f1ol \u2014 Ll\u00e1menos al 470-884-3905"
+  }
+}

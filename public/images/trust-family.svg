@@ -1,0 +1,9 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="16" fill="#FEF6E8"/>
+  <rect x="200" y="100" width="400" height="400" rx="200" fill="#FDEACC"/>
+  <circle cx="360" cy="240" r="50" fill="#F5A623"/>
+  <circle cx="440" cy="240" r="50" fill="#6CB4EE"/>
+  <path d="M300 380 Q400 440 500 380" stroke="#1B2D5B" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <text x="400" y="530" font-family="Arial" font-size="18" fill="#1B2D5B" text-anchor="middle" font-weight="bold">Placeholder: Family Trust Scene</text>
+  <text x="400" y="555" font-family="Arial" font-size="14" fill="#7A87AC" text-anchor="middle">Replace with stock photo</text>
+</svg>

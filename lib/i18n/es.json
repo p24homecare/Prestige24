@@ -1,0 +1,267 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "gapp": "Programa GAPP",
+    "whyUs": "Por Qu\u00e9 Elegirnos",
+    "howItWorks": "C\u00f3mo Funciona",
+    "contact": "Cont\u00e1ctenos",
+    "callUs": "Ll\u00e1menos",
+    "seHablaEspanol": "Se habla Espa\u00f1ol"
+  },
+  "hero": {
+    "headline": "Cuidado Compasivo. Apoyo Profesional. Tranquilidad.",
+    "subheadline": "Servicios confiables de atenci\u00f3n domiciliaria para ni\u00f1os y adultos que necesitan atenci\u00f3n m\u00e9dica especializada, apoyo personal o asistencia diaria. Nuestro equipo brinda atenci\u00f3n confiable y de alta calidad que permite a las personas permanecer seguras y c\u00f3modas en su hogar.",
+    "cta": "Solicitar una Consulta",
+    "ctaCall": "Ll\u00e1menos: 470-884-3905",
+    "tagline": "Atenci\u00f3n personalizada. Profesionales capacitados. Apoyo en el que las familias pueden confiar."
+  },
+  "services": {
+    "sectionTitle": "Nuestros Servicios",
+    "sectionSubtitle": "Atenci\u00f3n domiciliaria integral adaptada a las necesidades \u00fanicas de cada cliente, desde ni\u00f1os hasta adultos.",
+    "skilledNursing": {
+      "title": "Enfermer\u00eda Especializada",
+      "subtitle": "Servicios para Ni\u00f1os y Adultos",
+      "description": "Nuestras enfermeras licenciadas brindan atenci\u00f3n m\u00e9dica avanzada para clientes con necesidades de salud complejas en la comodidad de su hogar.",
+      "items": [
+        "Manejo de sondas de alimentaci\u00f3n",
+        "Cuidado de ventilador",
+        "Cuidado de traqueostom\u00eda",
+        "Monitoreo y manejo de equipos m\u00e9dicos complejos",
+        "Apoyo continuo para personas m\u00e9dicamente fr\u00e1giles"
+      ]
+    },
+    "privateDuty": {
+      "title": "Enfermer\u00eda Privada",
+      "description": "La enfermer\u00eda privada proporciona atenci\u00f3n de enfermer\u00eda especializada dedicada uno a uno para personas que requieren apoyo m\u00e9dico prolongado en el hogar.",
+      "items": [
+        "Atenci\u00f3n de enfermer\u00eda especializada continua",
+        "Apoyo a largo plazo para condiciones m\u00e9dicas complejas",
+        "Monitoreo y supervisi\u00f3n cl\u00ednica en un entorno hogare\u00f1o",
+        "Atenci\u00f3n adaptada a personas m\u00e9dicamente fr\u00e1giles"
+      ]
+    },
+    "personalCare": {
+      "title": "Asistencia de Cuidado Personal",
+      "description": "Nuestros cuidadores brindan apoyo con las necesidades diarias de cuidado personal, ayudando a los clientes a mantener su independencia y dignidad.",
+      "items": [
+        "Ba\u00f1o",
+        "Aseo personal",
+        "Alimentaci\u00f3n",
+        "Movilidad y transferencias",
+        "Rutinas diarias de higiene"
+      ],
+      "note": "Cada plan de cuidado se adapta para satisfacer las necesidades individuales de cada cliente."
+    },
+    "lifestyleSupport": {
+      "title": "Apoyo de Estilo de Vida y Compa\u00f1\u00eda",
+      "description": "Nuestros servicios de apoyo de estilo de vida proporcionan asistencia no m\u00e9dica que ayuda a los clientes a mantener un estilo de vida activo y c\u00f3modo en el hogar.",
+      "items": [
+        "Preparaci\u00f3n de comidas y apoyo nutricional",
+        "Transporte a citas y salidas sociales",
+        "Supervisi\u00f3n de seguridad y apoyo durante emergencias",
+        "Asistencia con rutinas diarias",
+        "Recordatorios de medicamentos",
+        "Limpieza ligera del hogar"
+      ]
+    }
+  },
+  "gapp": {
+    "sectionTitle": "Programa Pedi\u00e1trico de Georgia (GAPP)",
+    "sectionSubtitle": "Atenci\u00f3n Pedi\u00e1trica Domiciliaria de Confianza a Trav\u00e9s de la Iniciativa Financiada por Medicaid de Georgia",
+    "whatIsGapp": "El Programa Pedi\u00e1trico de Georgia (GAPP) es una iniciativa financiada por Medicaid que proporciona servicios de enfermer\u00eda especializada y cuidado personal a ni\u00f1os m\u00e9dicamente fr\u00e1giles menores de 21 a\u00f1os. Estos servicios se brindan en la comodidad y seguridad del hogar del ni\u00f1o sin costo para las familias. Las familias elegibles para Medicaid pueden solicitar, con aprobaci\u00f3n determinada por las necesidades m\u00e9dicas espec\u00edficas del ni\u00f1o.",
+    "highlights": {
+      "noCost": {
+        "title": "Sin Costo para Familias",
+        "description": "Los servicios est\u00e1n 100% cubiertos por Georgia Medicaid, asegurando cero gastos de bolsillo para familias que califican."
+      },
+      "licensedNurses": {
+        "title": "Enfermeras Licenciadas",
+        "description": "RNs y LPNs certificadas con especializaciones pedi\u00e1tricas y capacitaci\u00f3n cl\u00ednica continua."
+      },
+      "personalizedPlans": {
+        "title": "Planes Personalizados",
+        "description": "Planes de cuidado personalizados desarrollados en colaboraci\u00f3n con su familia y el equipo m\u00e9dico de su hijo."
+      },
+      "noWaitlist": {
+        "title": "Sin Lista de Espera",
+        "description": "Su hijo ser\u00e1 elegible para servicios inmediatamente despu\u00e9s de la aprobaci\u00f3n de GAPP."
+      }
+    },
+    "servicesTitle": "Servicios GAPP",
+    "serviceCategories": {
+      "dailyCare": {
+        "title": "Cuidado Diario y Movilidad",
+        "items": [
+          "Higiene Personal: Asistencia integral con ba\u00f1o, vestimenta e higiene",
+          "Apoyo de Movilidad: Asistencia experta en silla de ruedas y cambios de posici\u00f3n rutinarios para asegurar comodidad",
+          "Comodidad del Hogar: Cambio regular de ropa de cama y apoyo con actividades de la vida diaria (AVD)"
+        ]
+      },
+      "clinicalSupport": {
+        "title": "Apoyo Cl\u00ednico y M\u00e9dico",
+        "items": [
+          "Manejo de Medicamentos: Administraci\u00f3n precisa de medicamentos recetados",
+          "Nutrici\u00f3n Enteral: Alimentaci\u00f3n por sonda de gastrostom\u00eda (G-tube), limpieza y mantenimiento del sitio",
+          "Signos Vitales y Monitoreo: Observaci\u00f3n continua y seguimiento de signos vitales para monitorear el estado de salud"
+        ]
+      },
+      "respiratoryCare": {
+        "title": "Cuidado Respiratorio Avanzado",
+        "items": [
+          "Manejo de Traqueostom\u00eda: Cuidado profesional de traqueostom\u00eda, limpieza y succi\u00f3n",
+          "Terapia Respiratoria: Administraci\u00f3n de tratamientos respiratorios y ventilaci\u00f3n manual por traqueostom\u00eda o boca"
+        ]
+      },
+      "careCoordination": {
+        "title": "Coordinaci\u00f3n de Cuidado",
+        "items": [
+          "Comunicaci\u00f3n Cl\u00ednica: Recopilaci\u00f3n detallada de datos del plan de tratamiento e informe inmediato de cambios de salud a m\u00e9dicos o enfermeras"
+        ]
+      }
+    },
+    "gettingStartedTitle": "C\u00f3mo Comenzar",
+    "gettingStartedSubtitle": "Siga estos cuatro pasos para comenzar a recibir atenci\u00f3n especializada para su hijo.",
+    "steps": {
+      "step1": {
+        "title": "Consulta Inicial",
+        "description": "Contacte a nuestro equipo de admisi\u00f3n para discutir las necesidades m\u00e9dicas espec\u00edficas y la rutina diaria de su hijo."
+      },
+      "step2": {
+        "title": "Revisi\u00f3n de Elegibilidad",
+        "description": "Le ayudaremos a verificar la elegibilidad de Georgia Medicaid o TEFRA para asegurar que sus servicios est\u00e9n cubiertos."
+      },
+      "step3": {
+        "title": "Evaluaci\u00f3n en el Hogar",
+        "description": "Una Enfermera Registrada (RN) visitar\u00e1 su hogar para realizar una evaluaci\u00f3n cl\u00ednica y determinar el nivel de atenci\u00f3n requerido."
+      },
+      "step4": {
+        "title": "Asignaci\u00f3n de Cuidador",
+        "description": "Una vez aprobado, coordinamos su plan de tratamiento personalizado y asignamos a su familia una enfermera o asistente calificada."
+      }
+    },
+    "timelineNote": "Tenga en cuenta que el proceso de admisi\u00f3n y evaluaci\u00f3n generalmente toma hasta 30 d\u00edas en completarse."
+  },
+  "whyUs": {
+    "sectionTitle": "Por Qu\u00e9 las Familias Conf\u00edan en Nosotros",
+    "sectionSubtitle": "Elegir atenci\u00f3n para un ser querido es una decisi\u00f3n importante. En Prestige 24 Home Care, combinamos experiencia cl\u00ednica con compasi\u00f3n genuina para asegurar que cada cliente reciba apoyo atento y confiable.",
+    "reasons": {
+      "personalized": {
+        "title": "Atenci\u00f3n Personalizada",
+        "description": "Adaptada a las necesidades m\u00e9dicas y personales de cada cliente."
+      },
+      "caregivers": {
+        "title": "Cuidadores Cuidadosamente Seleccionados",
+        "description": "Con la capacitaci\u00f3n y experiencia en la que las familias pueden confiar."
+      },
+      "consistency": {
+        "title": "Consistencia y Confiabilidad",
+        "description": "Para que los clientes se sientan seguros y apoyados."
+      },
+      "communication": {
+        "title": "Comunicaci\u00f3n Transparente",
+        "description": "Con familias y proveedores de atenci\u00f3n m\u00e9dica."
+      },
+      "paperwork": {
+        "title": "Asistencia con Documentaci\u00f3n",
+        "description": "Navegaci\u00f3n de documentaci\u00f3n m\u00e9dica y coordinaci\u00f3n de atenci\u00f3n."
+      }
+    },
+    "closing": "Desde la primera consulta hasta la atenci\u00f3n diaria, brindamos un servicio de nivel concierge dise\u00f1ado para hacer la vida m\u00e1s f\u00e1cil, segura y c\u00f3moda en el hogar."
+  },
+  "testimonials": {
+    "sectionTitle": "Lo Que Dicen las Familias",
+    "sectionSubtitle": "Escuche de familias que conf\u00edan en Prestige 24 Home Care para el cuidado de sus seres queridos.",
+    "reviews": [
+      {
+        "name": "Mar\u00eda L.",
+        "role": "Madre",
+        "text": "Prestige 24 ha sido una bendici\u00f3n para nuestra familia. Las enfermeras son profesionales, compasivas y realmente se preocupan por el bienestar de mi hijo. Finalmente tengo tranquilidad sabiendo que mi hijo est\u00e1 en buenas manos.",
+        "rating": 5
+      },
+      {
+        "name": "James T.",
+        "role": "Familiar",
+        "text": "El nivel de atenci\u00f3n que recibe mi madre es excepcional. Los cuidadores son confiables, amables y siempre van m\u00e1s all\u00e1. No podr\u00edamos pedir un mejor equipo de atenci\u00f3n domiciliaria.",
+        "rating": 5
+      },
+      {
+        "name": "Sandra W.",
+        "role": "Madre",
+        "text": "Desde la primera consulta, Prestige 24 nos hizo sentir escuchados y apoyados. La inscripci\u00f3n al programa GAPP fue fluida, y nuestra hija ahora recibe la atenci\u00f3n de enfermer\u00eda especializada que necesita en casa.",
+        "rating": 5
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "C\u00f3mo Funciona",
+    "sectionSubtitle": "Comenzar con Prestige 24 Home Care es sencillo. Le guiamos en cada paso.",
+    "steps": [
+      {
+        "title": "Cont\u00e1ctenos",
+        "description": "Comun\u00edquese por tel\u00e9fono o a trav\u00e9s de nuestro formulario de contacto para contarnos sobre sus necesidades de atenci\u00f3n."
+      },
+      {
+        "title": "Consulta Gratuita",
+        "description": "Programe una consulta con uno de nuestros especialistas dedicados para explorar c\u00f3mo podemos brindar la mejor atenci\u00f3n para usted o su ser querido."
+      },
+      {
+        "title": "Plan de Cuidado Personalizado",
+        "description": "Desarrollamos un plan de cuidado personalizado basado en las necesidades m\u00e9dicas del cliente, rutina diaria y preferencias familiares."
+      },
+      {
+        "title": "Comienza la Atenci\u00f3n",
+        "description": "Su cuidador asignado comienza a brindar atenci\u00f3n profesional y compasiva en la comodidad de su hogar."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Solicitar una Consulta",
+    "sectionSubtitle": "Complete el formulario a continuaci\u00f3n y un miembro de nuestro equipo de admisi\u00f3n se comunicar\u00e1 con usted dentro de 24 horas.",
+    "fields": {
+      "fullName": "Nombre Completo",
+      "phone": "N\u00famero de Tel\u00e9fono",
+      "email": "Correo Electr\u00f3nico",
+      "patientAge": "Edad del Paciente",
+      "relationship": "Relaci\u00f3n con el Paciente",
+      "serviceNeeded": "Servicio Necesitado",
+      "insurance": "Estado de Seguro / Medicaid",
+      "contactMethod": "M\u00e9todo de Contacto Preferido",
+      "message": "Mensaje (Opcional)"
+    },
+    "placeholders": {
+      "fullName": "Ingrese su nombre completo",
+      "phone": "(XXX) XXX-XXXX",
+      "email": "su@correo.com",
+      "patientAge": "Ingrese la edad del paciente",
+      "message": "Cu\u00e9ntenos sobre sus necesidades de atenci\u00f3n, preguntas o informaci\u00f3n adicional..."
+    },
+    "options": {
+      "relationship": ["Yo mismo/a", "Padre / Tutor", "C\u00f3nyuge", "Hijo/a", "Otro"],
+      "service": ["Atenci\u00f3n Pedi\u00e1trica (GAPP)", "Atenci\u00f3n Domiciliaria para Adultos", "Compa\u00f1\u00eda / Apoyo de Estilo de Vida", "No Estoy Seguro/a"],
+      "insurance": ["Georgia Medicaid", "TEFRA", "Seguro Privado", "Sin Seguro", "No Estoy Seguro/a"],
+      "contactMethod": ["Tel\u00e9fono", "Correo Electr\u00f3nico", "Cualquiera"]
+    },
+    "consent": "Doy mi consentimiento para que Prestige 24 Home Care se comunique conmigo respecto a servicios de atenci\u00f3n. Entiendo que mi informaci\u00f3n se mantendr\u00e1 confidencial de acuerdo con las regulaciones de HIPAA.",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando...",
+    "success": "\u00a1Gracias! Su solicitud ha sido enviada. Un miembro de nuestro equipo se comunicar\u00e1 con usted dentro de 24 horas.",
+    "error": "Algo sali\u00f3 mal. Por favor int\u00e9ntelo de nuevo o ll\u00e1menos directamente al 470-884-3905.",
+    "directContact": "\u00bfPrefiere hablar con alguien directamente?",
+    "callNow": "Llamar al 470-884-3905",
+    "emailUs": "Enviar correo a admin@p24homecare.com",
+    "selectPlaceholder": "Seleccione..."
+  },
+  "footer": {
+    "tagline": "Cuidado Que Se Siente Como Familia.",
+    "description": "En Prestige 24 Home Care, tratamos cada hogar con el mismo respeto y cuidado que le dar\u00edamos a nuestra propia familia.",
+    "quickLinks": "Enlaces R\u00e1pidos",
+    "contactInfo": "Informaci\u00f3n de Contacto",
+    "joinTeam": "\u00danase a Nuestro Equipo",
+    "joinTeamText": "\u00bfInteresado en unirse a nuestro equipo de cuidadores dedicados?",
+    "joinTeamCta": "Enviar correo a careers@p24homecare.com",
+    "privacyPolicy": "Pol\u00edtica de Privacidad",
+    "hipaaNotice": "Aviso de HIPAA",
+    "copyright": "\u00a9 2024 Prestige 24 Home Care. Todos los derechos reservados.",
+    "seHablaEspanol": "Se habla Espa\u00f1ol \u2014 Ll\u00e1menos al 470-884-3905"
+  }
+}
