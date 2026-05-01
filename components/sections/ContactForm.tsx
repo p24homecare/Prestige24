@@ -26,9 +26,12 @@ export default function ContactForm() {
   const onSubmit = async (data: ContactFormData) => {
     setStatus("submitting");
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://formspree.io/f/mgodvvlv", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
         body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error("Failed to submit");
