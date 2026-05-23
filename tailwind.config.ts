@@ -74,10 +74,16 @@ const config: Config = {
           800: "#331307",
           900: "#1A0A03",
         },
+        cream: {
+          DEFAULT: "#FAF7F2",
+          50: "#FDFCFA",
+          100: "#FAF7F2",
+          200: "#F5EEDF",
+        },
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
-        serif: ["Playfair Display", "Georgia", "serif"],
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        serif: ["var(--font-lora)", "Georgia", "serif"],
       },
       animation: {
         "fade-in": "fadeIn 0.6s ease-out forwards",

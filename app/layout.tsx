@@ -1,40 +1,40 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { DM_Sans, Lora } from "next/font/google";
 import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 import "./globals.css";
 
-const inter = Inter({
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-dm-sans",
   display: "swap",
 });
 
-const playfair = Playfair_Display({
+const lora = Lora({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-lora",
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Prestige 24 Home Care | Compassionate In-Home Care in Georgia",
+  title: "Prestige 24 Home Care | GAPP Pediatric Home Care in Georgia",
   description:
-    "Trusted in-home care services for children and adults in Georgia. Skilled nursing, private duty nursing, personal care assistance, GAPP pediatric program. Call 470-884-3905.",
+    "Specialized pediatric home care through Georgia's GAPP program. Skilled nursing, personal care, and respiratory support for medically fragile children. Medicaid-funded. Call 470-884-3905.",
   keywords: [
-    "home care Georgia",
+    "GAPP program Georgia",
     "pediatric home care",
-    "GAPP program",
-    "skilled nursing",
-    "private duty nursing",
-    "personal care assistance",
-    "in-home care",
-    "Medicaid home care Georgia",
+    "Georgia Pediatric Program",
     "medically fragile children",
-    "elder care Georgia",
+    "pediatric skilled nursing",
+    "Medicaid pediatric care Georgia",
+    "tracheostomy care children",
+    "ventilator care pediatric",
+    "pediatric private duty nursing",
+    "GAPP Medicaid",
   ],
   openGraph: {
-    title: "Prestige 24 Home Care | Compassionate In-Home Care in Georgia",
+    title: "Prestige 24 Home Care | GAPP Pediatric Home Care in Georgia",
     description:
-      "Trusted in-home care services for children and adults. Skilled nursing, GAPP pediatric program, personal care, and lifestyle support.",
+      "Specialized pediatric home care through Georgia's GAPP program. Skilled nursing, personal care, and respiratory support for medically fragile children.",
     type: "website",
     locale: "en_US",
     siteName: "Prestige 24 Home Care",
@@ -47,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${dmSans.variable} ${lora.variable}`}>
       <head>
         <script
           type="application/ld+json"
@@ -57,7 +57,7 @@ export default function RootLayout({
               "@type": "HomeHealthCareService",
               name: "Prestige 24 Home Care",
               description:
-                "Trusted in-home care services for children and adults in Georgia. Skilled nursing, private duty nursing, personal care assistance, and GAPP pediatric program.",
+                "Specialized pediatric home care through Georgia's GAPP program. Skilled nursing, personal care, and respiratory support for medically fragile children.",
               telephone: "+1-470-884-3905",
               email: "admin@p24homecare.com",
               url: "https://p24homecare.com",
@@ -66,15 +66,14 @@ export default function RootLayout({
                 name: "Georgia",
               },
               serviceType: [
-                "Skilled Nursing Care",
-                "Private Duty Nursing",
-                "Personal Care Assistance",
-                "Lifestyle Support & Companion Care",
                 "Georgia Pediatric Program (GAPP)",
+                "Pediatric Skilled Nursing",
+                "Pediatric Private Duty Nursing",
+                "Pediatric Personal Care",
+                "Respiratory Care for Children",
               ],
               medicalSpecialty: [
                 "Pediatric Care",
-                "Geriatric Care",
                 "Home Health Care",
               ],
               availableChannel: {

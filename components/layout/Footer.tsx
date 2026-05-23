@@ -10,15 +10,15 @@ export default function Footer() {
   return (
     <footer className="bg-navy text-white">
       <div className="container-max section-padding !pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-8 text-center">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <Image
               src="/logo.png"
               alt="Prestige 24 Home Care"
               width={400}
               height={116}
-              className="h-10 w-auto brightness-0 invert mb-4"
+              className="h-10 w-auto brightness-0 invert mb-4 mx-auto"
             />
             <p className="text-lg font-serif text-amber mb-3">{t.footer.tagline}</p>
             <p className="text-navy-200 text-sm leading-relaxed">
@@ -31,11 +31,6 @@ export default function Footer() {
             <h3 className="text-base font-semibold mb-4 text-amber">{t.footer.quickLinks}</h3>
             <ul className="space-y-2.5">
               <li>
-                <a href="#services" className="text-sm text-navy-200 hover:text-white transition-colors">
-                  {t.nav.services}
-                </a>
-              </li>
-              <li>
                 <a href="#gapp" className="text-sm text-navy-200 hover:text-white transition-colors">
                   {t.nav.gapp}
                 </a>
@@ -43,11 +38,6 @@ export default function Footer() {
               <li>
                 <a href="#why-us" className="text-sm text-navy-200 hover:text-white transition-colors">
                   {t.nav.whyUs}
-                </a>
-              </li>
-              <li>
-                <a href="#how-it-works" className="text-sm text-navy-200 hover:text-white transition-colors">
-                  {t.nav.howItWorks}
                 </a>
               </li>
               <li>
@@ -66,7 +56,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="text-base font-semibold mb-4 text-amber">{t.footer.contactInfo}</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3 inline-block text-left">
               <li>
                 <a href="tel:4708843905" className="flex items-center gap-2.5 text-sm text-navy-200 hover:text-white transition-colors">
                   <Phone className="w-4 h-4 text-sky flex-shrink-0" />
@@ -94,23 +84,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Join Team */}
-          <div>
-            <h3 className="text-base font-semibold mb-4 text-amber">{t.footer.joinTeam}</h3>
-            <p className="text-sm text-navy-200 mb-3">{t.footer.joinTeamText}</p>
-            <a
-              href="mailto:careers@p24homecare.com"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium border border-sky text-sky rounded-lg hover:bg-sky hover:text-white transition-colors"
-            >
-              <Mail className="w-4 h-4" />
-              {t.footer.joinTeamCta}
-            </a>
-            <div className="mt-6 p-3 bg-navy-600 rounded-lg">
-              <p className="text-sm text-sky font-medium">
-                {t.footer.seHablaEspanol}
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Bottom bar */}

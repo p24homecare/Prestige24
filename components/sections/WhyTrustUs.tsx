@@ -25,15 +25,15 @@ export default function WhyTrustUs() {
   const { ref, isInView } = useInView();
 
   return (
-    <section id="why-us" className="section-padding bg-white">
+    <section id="why-us" className="section-padding !py-14 sm:!py-18 lg:!py-24 bg-white">
       <div ref={ref} className={`container-max transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image side */}
           <div className="relative order-2 lg:order-1">
             <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/trust-consultation.png"
-                alt="Healthcare professional with tablet consulting an elderly woman at home"
+                src="/images/gapp-clinic-bright.jpg"
+                alt="Smiling child in a yellow dress at a bright pediatric clinic"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -39,10 +39,10 @@ export default function GAPPProgram() {
   const { ref, isInView } = useInView();
 
   return (
-    <section id="gapp" className="section-padding bg-gray-50">
+    <section id="gapp" className="section-padding !py-16 sm:!py-22 lg:!py-28 bg-cream">
       <div ref={ref} className={`container-max transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="max-w-3xl mb-14">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-sky/10 rounded-full text-sky text-sm font-semibold mb-4">
             GAPP
           </div>
@@ -63,7 +63,7 @@ export default function GAPPProgram() {
           </div>
           <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/images/gapp-pediatric.png"
+              src="/images/gapp-wheelchair.jpg"
               alt="Caregiver smiling with a young child in a wheelchair"
               fill
               className="object-cover"
@@ -96,7 +96,7 @@ export default function GAPPProgram() {
 
         {/* GAPP Services */}
         <div className="mb-16">
-          <h3 className="text-2xl font-serif font-bold text-navy text-center mb-8">
+          <h3 className="text-2xl font-serif font-bold text-navy mb-8">
             {t.gapp.servicesTitle}
           </h3>
           <div className="grid sm:grid-cols-2 gap-6">
@@ -125,37 +125,48 @@ export default function GAPPProgram() {
           </div>
         </div>
 
-        {/* Getting Started Steps */}
+        {/* Getting Started Steps - Timeline */}
         <div className="bg-navy rounded-2xl p-6 sm:p-10">
-          <h3 className="text-2xl font-serif font-bold text-white text-center mb-2">
+          <h3 className="text-2xl font-serif font-bold text-white mb-2">
             {t.gapp.gettingStartedTitle}
           </h3>
-          <p className="text-navy-200 text-center mb-10 max-w-xl mx-auto">
+          <p className="text-navy-200 mb-10 max-w-xl">
             {t.gapp.gettingStartedSubtitle}
           </p>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {stepKeys.map((key, idx) => {
-              const Icon = stepIcons[idx];
-              const step = t.gapp.steps[key];
-              return (
-                <div key={key} className="relative">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-amber rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+          <div className="relative">
+            {/* Horizontal connector line (desktop) */}
+            <div className="hidden lg:block absolute top-5 left-[calc(12.5%+20px)] right-[calc(12.5%+20px)] h-0.5 bg-navy-400" />
+
+            <div className="grid lg:grid-cols-4 gap-8 lg:gap-6">
+              {stepKeys.map((key, idx) => {
+                const Icon = stepIcons[idx];
+                const step = t.gapp.steps[key];
+                return (
+                  <div key={key} className="relative flex lg:flex-col items-start gap-4 lg:items-center lg:text-center">
+                    {/* Vertical connector (mobile) */}
+                    {idx < stepKeys.length - 1 && (
+                      <div className="absolute left-5 top-10 bottom-0 w-0.5 bg-navy-400 lg:hidden" style={{ height: "calc(100% + 2rem)" }} />
+                    )}
+                    <div className="relative z-10 w-10 h-10 bg-amber rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0 ring-4 ring-navy">
                       {idx + 1}
                     </div>
-                    <Icon className="w-5 h-5 text-sky" />
+                    <div className="lg:mt-4">
+                      <div className="flex items-center gap-2 lg:justify-center mb-1">
+                        <Icon className="w-4 h-4 text-sky" />
+                        <h4 className="font-bold text-white text-sm">{step.title}</h4>
+                      </div>
+                      <p className="text-sm text-navy-200 leading-relaxed">
+                        {step.description}
+                      </p>
+                    </div>
                   </div>
-                  <h4 className="font-bold text-white mb-2">{step.title}</h4>
-                  <p className="text-sm text-navy-200 leading-relaxed">
-                    {step.description}
-                  </p>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
 
-          <p className="text-center text-sm text-sky mt-8 font-medium">
+          <p className="text-sm text-sky mt-10 font-medium">
             {t.gapp.timelineNote}
           </p>
         </div>

@@ -9,14 +9,14 @@ export default function Testimonials() {
   const { ref, isInView } = useInView();
 
   return (
-    <section className="section-padding bg-gray-50">
+    <section className="section-padding !py-14 sm:!py-16 lg:!py-20 bg-white">
       <div ref={ref} className={`container-max transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-navy mb-4">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-navy mb-3">
             {t.testimonials.sectionTitle}
           </h2>
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <p className="text-gray-600 leading-relaxed">
             {t.testimonials.sectionSubtitle}
           </p>
         </div>

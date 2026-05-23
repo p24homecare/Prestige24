@@ -9,20 +9,13 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-navy via-navy-500 to-royal">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 right-20 w-72 h-72 bg-sky rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-96 h-96 bg-amber rounded-full blur-3xl" />
-      </div>
-
       <div className="relative container-max section-padding !py-20 sm:!py-28 lg:!py-32">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text content */}
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full text-sky text-sm font-medium mb-6">
-              <span className="w-2 h-2 bg-sky rounded-full animate-pulse" />
-              {t.hero.tagline}
-            </div>
+            <p className="text-xs sm:text-sm uppercase tracking-widest text-sky/80 font-medium mb-6">
+              Trusted GAPP Provider
+            </p>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif font-bold text-white leading-tight mb-6 text-balance">
               {t.hero.headline}
@@ -63,29 +56,10 @@ export default function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/20 to-transparent" />
             </div>
-            {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-xl p-4 flex items-center gap-3">
-              <div className="w-12 h-12 bg-sky-50 rounded-full flex items-center justify-center">
-                <Phone className="w-6 h-6 text-sky" />
-              </div>
-              <div>
-                <p className="text-xs text-gray-500 font-medium">24/7 Support</p>
-                <p className="text-sm font-bold text-navy">470-884-3905</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
-      {/* Wave divider */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-          <path
-            d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z"
-            fill="white"
-          />
-        </svg>
-      </div>
     </section>
   );
 }

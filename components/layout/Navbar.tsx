@@ -7,10 +7,8 @@ import { Phone, Menu, X } from "lucide-react";
 import Image from "next/image";
 
 const navLinks = [
-  { key: "services", href: "#services" },
   { key: "gapp", href: "#gapp" },
   { key: "whyUs", href: "#why-us" },
-  { key: "howItWorks", href: "#how-it-works" },
 ] as const;
 
 export default function Navbar() {
